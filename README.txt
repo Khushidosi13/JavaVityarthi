@@ -1,64 +1,71 @@
-JavaVityarthi 
+JavaVityarthi
 
-Project: JavaVityarthi
-Author: Khushi Dosi (GitHub: Khushidosi13)
-Language: Java
-Created: 2025
+overview:
+JavaVityarthi is a Java-based project created under the VITyarthi – Build Your Own Project initiative.
+It demonstrates problem identification, solution design, modular Java implementation, documentation, and testing.
 
-Overview:
-JavaVityarthi is a collection of Java source files and examples intended for learning and practicing Java programming concepts.
-The repository contains example programs, utilities, and small projects that demonstrate core Java topics such as:
-- basic syntax and I/O
-- control flow (if/switch, loops)
-- collections and data structures
-- object-oriented programming (classes, inheritance, polymorphism)
-- simple file I/O and utilities
+Project Objective:
+- Identify a meaningful problem
+- Design a technical Java-based solution
+- Implement modules using OOP and Java concepts
+- Provide diagrams, documentation, and testing
 
-Goals:
-- Provide clear, compact Java examples for students and beginners.
-- Offer runnable code that can be compiled and executed with standard Java tools (JDK 8+ recommended).
-- Serve as a personal learning/portfolio repository.
+Functional Requirements:
+- Three major functional modules
+- Input/output workflow
+- Logical user-system interaction
 
-Repository structure (typical):
-/src/               - Java source files (organized by package if applicable)
-README.txt          - This file
-LICENSE             - (optional) license file
-docs/               - (optional) documentation or notes
-build/              - (optional) compiled artifacts or example outputs
+Non-Functional Requirements:
+- Performance
+- Usability
+- Maintainability
+- Reliability
+- Error handling strategy
 
-Prerequisites:
-- Java Development Kit (JDK) 8 or newer installed.
-- An IDE (IntelliJ IDEA) or the command-line javac/java tools.
+Technical Expectations:
+- Modular Java structure
+- OOP (classes, objects, inheritance, polymorphism)
+- Proper folder/package organization
+- Validation and error handling
+- Version control with Git
 
-How to compile and run (command-line):
-1. Open a terminal and navigate to the repository root.
-2. Compile a Java file (example):
-   javac -d out src/path/to/YourClass.java
-   (This places .class files under the out/ directory)
-3. Run the compiled class:
-   java -cp out package.name.YourClass
-Example (single-file, no packages):
-   javac src/HelloWorld.java
-   java -cp src HelloWorld
+Design & Documentation Artefacts:
+- Problem Statement
+- Objectives
+- Functional & Non-Functional Requirements
+- Architecture Diagram
+- Workflow Diagram
+- UML Diagrams (Use Case, Sequence, Class)
+- ER Diagram (if applicable)
 
-If the repository uses a build tool (Maven / Gradle):
-- For Maven: mvn clean compile
-- For Gradle: ./gradlew build (or gradle build)
+Repository Structure:
+JavaVityarthi/
+├── src/
+├── docs/
+│   ├── diagrams/
+│   ├── statement.md
+│   └── project_report.pdf
+├── README.txt
 
-Contributing:
-- Pull requests are welcome for bug fixes, new examples, and documentation improvements.
-- When adding examples, please:
-  - Use clear class and file names.
-  - Add brief comments explaining important lines.
-  - Keep examples focused and small (single concept per file when possible).
+Running Instructions:
+Command Line:
+  javac -d out src/path/File.java
+  java -cp out package.ClassName
 
-Style guidelines:
-- Use meaningful variable and class names.
-- Add brief comments for non-obvious logic.
-- Keep methods short and focused.
-- Prefer standard library features over custom implementations unless teaching a concept.
+IDE:
+  Open in IntelliJ/Eclipse/VS Code and run main class.
 
+Testing:
+- Validate inputs/outputs
+- Check error handling
+- Run modules independently
 
+Future Enhancements:
+- Additional modules
+- GUI using Swing/JavaFX
+- Database/Storage support
+- More testing and documentation
 
-
-EOF
+Contact:
+Author: Khushi Dosi
+GitHub: Khushidosi13
