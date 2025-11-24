@@ -1,4 +1,4 @@
-JavaVityarthi - README (plain text)
+JavaVityarthi 
 
 Project: JavaVityarthi
 Author: Khushi Dosi (GitHub: Khushidosi13)
@@ -28,7 +28,7 @@ build/              - (optional) compiled artifacts or example outputs
 
 Prerequisites:
 - Java Development Kit (JDK) 8 or newer installed.
-- An IDE (IntelliJ IDEA, Eclipse, VS Code with Java extension) or the command-line javac/java tools.
+- An IDE (IntelliJ IDEA) or the command-line javac/java tools.
 
 How to compile and run (command-line):
 1. Open a terminal and navigate to the repository root.
@@ -58,16 +58,7 @@ Style guidelines:
 - Keep methods short and focused.
 - Prefer standard library features over custom implementations unless teaching a concept.
 
-License:
-- No license file is included by default. If you want this project to be open-source, consider adding a LICENSE file (e.g., MIT, Apache-2.0). Without a license, others have limited rights to reuse the code.
 
-Notes & Tips:
-- If you want me to generate a more specific README (detailed setup, examples list, or badges), tell me:
-  - Which examples you want highlighted (e.g., "calculator, tic-tac-toe, file-io").
-  - Whether you use Maven or Gradle.
-  - Any project goals or audience to target (beginners, intermediate learners, or instructors).
 
-Contact:
-GitHub: https://github.com/Khushidosi13
 
 EOF
